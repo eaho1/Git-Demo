@@ -1,1 +1,2 @@
 Goodbye World!
+I'm creating a new line in file 2
