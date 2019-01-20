@@ -15,5 +15,10 @@ public class Player : MonoBehaviour
     {
         this.transform.Translate(Input.GetAxis("Horizontal") * Vector2.right);
     }
+    
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log(other.collider.name);
+    }
 
 }
