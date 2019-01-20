@@ -7,3 +7,8 @@ void Update()
 {
 	Debug.Log("Spammmmmm");
 }
+
+void Start()
+{
+  Debug.Log("Hello World");
+}
