@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    public float speed = 5f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +16,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        this.transform.Translate(Input.GetAxis("Horizontal") * Vector2.right);
+        this.transform.Translate(Input.GetAxis("Horizontal") * speed * Vector2.right);
     }
     
     void OnCollisionEnter2D(Collision2D other)
