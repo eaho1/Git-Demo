@@ -2,3 +2,8 @@ Goodbye World!
 I'm creating a new line in file 2
 Let's add another line on the remote
 Gee, I hope there isn't another line here
+
+void Start()
+{
+  Debug.Log("Hello World");
+}
